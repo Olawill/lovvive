@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (q3eidnmiwhzegld2r47x) or template name (lovvie-nextjs-test-v2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("lovvie-nextjs-test-v2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("lovvie-nextjs-test-v2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('lovvie-nextjs-test-v2')
+
+team_id = "970efece-5742-44d7-933d-ed02a8109202"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "lovvie-nextjs-test-v2"
+template_id = "q3eidnmiwhzegld2r47x"
